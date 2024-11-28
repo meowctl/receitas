@@ -1,0 +1,11 @@
+.cabecalho {
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    color: rgb(26, 26, 26);
+    background-color: rgba(241, 230, 67, 0.897);
+    /* word-break: normal; */
+}
