@@ -1,5 +1,4 @@
 .destaques {
-    border-radius: 10px;
     min-height: 600px;
     width: 100%;
 }
@@ -8,10 +7,27 @@
     display: flex;
     gap: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .flex-destaques {
+        flex-direction: column;
+    }
+
+    .flex-destaques-vertical {
+        height: 100%;
+    }
+
+    .destaques {
+        min-height: 0 !important;
+    }
+    
+    .flex-destaques-vertical > div {
+        min-height: 150px !important;
+    }
+}
   
 .flex-destaques-vertical {
     width: 100%;
-    align-content: start;
     flex-direction: column;
 }
   
@@ -21,5 +37,16 @@
     color: white;
     height: 100%;
     padding: 1rem;
-    font-size: 30px;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.destaque-item {
+    display: flex;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.destaque-item > span {
+    align-self: flex-end;
 }

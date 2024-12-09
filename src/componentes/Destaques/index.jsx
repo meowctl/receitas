@@ -2,13 +2,19 @@ import "./Destaques.css"
 
 function Destaques() {
     return (
-        <div class="destaques flex-destaques">
-            <div class="flex-destaques flex-destaques-vertical">
-                <div>1</div>
+        <div className="destaques flex-destaques">
+            <div className="flex-destaques flex-destaques-vertical">
+                <div className="destaque-item">
+                    <span>Imagem 1</span>
+                </div>
             </div>
-            <div class="flex-destaques flex-destaques-vertical">
-                <div>2</div>
-                <div>3</div>
+            <div className="flex-destaques flex-destaques-vertical">
+                <div className="destaque-item">
+                    <span>Imagem 2</span>
+                </div>
+                <div className="destaque-item">
+                    <span>Imagem 3</span>
+                </div>
             </div> 
         </div>
     )
