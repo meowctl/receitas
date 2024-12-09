@@ -1,0 +1,32 @@
+{
+    "destaques": [
+        {
+            "titulo": "delicioso cuscuz",
+            "imagem": "url"
+        },
+        {
+            "titulo": "delicioso cuscuz",
+            "imagem": "url"
+        },
+        {
+            "titulo": "delicioso cuscuz",
+            "imagem": "url"
+        }
+    ],
+    "receitas": [
+        {
+            "titulo": "delicioso cuscuz",
+            "imagem": "url ou null",
+            "autor": "pessoa",
+            "conteudo": "texto com formatação html"
+        }
+    ],
+    "extras": [
+        {
+            "titulo": "beneficios do cuscuz na saúde",
+            "imagem": "url ou null",
+            "autor": "pessoa",
+            "conteudo": "texto com formatação html"
+        }
+    ]
+}
