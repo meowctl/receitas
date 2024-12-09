@@ -6,7 +6,7 @@ function ListaDeTarefas(){
         return <Tarefa titulo={tarefa}/>
     }
     return (
-        <div style={{backgroundColor:"gray", height:"100vh"}}>
+        <div style={{width: "100%", backgroundColor:"gray", height:"100vh"}}>
             {tarefas.map((tarefa)=>escreveTarefa(tarefa))}
         </div>
     )

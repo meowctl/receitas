@@ -6,6 +6,18 @@
     align-items: center;
     justify-content: center;
     color: rgb(26, 26, 26);
-    background-color: rgba(241, 230, 67, 0.897);
+    background-color: rgba(248, 190, 0, 0.897);
     /* word-break: normal; */
+}
+
+.cabecalho-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.cabecalho-itens > div {
+    width: 100%;
 }

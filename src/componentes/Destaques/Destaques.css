@@ -1,0 +1,25 @@
+.destaques {
+    border-radius: 10px;
+    min-height: 600px;
+    width: 100%;
+}
+  
+.flex-destaques {
+    display: flex;
+    gap: 1rem;
+}
+  
+.flex-destaques-vertical {
+    width: 100%;
+    align-content: start;
+    flex-direction: column;
+}
+  
+.flex-destaques-vertical > div {
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    height: 100%;
+    padding: 1rem;
+    font-size: 30px;
+}

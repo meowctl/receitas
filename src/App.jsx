@@ -1,13 +1,14 @@
 import Cabecalho from "./componentes/Cabecalho"
-import ListaDeTarefas from "./componentes/ListaDeTarefas"
+import Conteudo from "./componentes/Conteudo"
 import "./App.css"
 
 
 function App() {
   return (
-    
-    <Cabecalho />
-    
+    <>
+      <Cabecalho />
+      <Conteudo />
+    </>
   )
 }
 
