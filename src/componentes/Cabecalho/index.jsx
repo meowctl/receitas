@@ -7,11 +7,11 @@ function Cabecalho() {
         <div className="cabecalho">
             <div className="cabecalho-itens">
                 <span style={{textAlign: "left"}}>
-                    <FontAwesomeIcon icon={faBars} /> MENU
+                    <FontAwesomeIcon icon={faBars} />
                 </span>
                 <span style={{textAlign: "center"}}>RECEITAS</span>
                 <span style={{textAlign: "right"}}>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} /> PESQUISA
+                    <FontAwesomeIcon icon={faMagnifyingGlass} />
                 </span>
             </div>
         </div>
