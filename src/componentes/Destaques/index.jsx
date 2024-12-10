@@ -1,21 +1,15 @@
 import "./Destaques.css"
+import "../Destaque"
 
-function Destaques() {
+function Destaques(props) {
     return (
         <div className="destaques flex-destaques">
             <div className="flex-destaques flex-destaques-vertical">
-                <div className="destaque-item">
-                    <span>Imagem 1</span>
-                </div>
+                {props.destaques.slice(0, 1).map(destaque => destaque)}
             </div>
             <div className="flex-destaques flex-destaques-vertical">
-                <div className="destaque-item">
-                    <span>Imagem 2</span>
-                </div>
-                <div className="destaque-item">
-                    <span>Imagem 3</span>
-                </div>
-            </div> 
+                {props.destaques.slice(1).map(destaque => destaque)}
+            </div>
         </div>
     )
 }

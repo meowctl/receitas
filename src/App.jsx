@@ -8,6 +8,7 @@ function App() {
     <>
       <Cabecalho />
       <Conteudo />
+      { /* rodapé */ }
     </>
   )
 }

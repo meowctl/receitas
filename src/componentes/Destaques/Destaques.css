@@ -2,7 +2,7 @@
     min-height: 600px;
     width: 100%;
 }
-  
+
 .flex-destaques {
     display: flex;
     gap: 1rem;
@@ -20,17 +20,17 @@
     .destaques {
         min-height: 0 !important;
     }
-    
+
     .flex-destaques-vertical > div {
         min-height: 150px !important;
     }
 }
-  
+
 .flex-destaques-vertical {
     width: 100%;
     flex-direction: column;
 }
-  
+
 .flex-destaques-vertical > div {
     border-radius: 10px;
     background-color: gray;
@@ -39,14 +39,4 @@
     padding: 1rem;
     min-height: 0;
     overflow: hidden;
-}
-
-.destaque-item {
-    display: flex;
-    font-size: 24px;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.destaque-item > span {
-    align-self: flex-end;
 }
