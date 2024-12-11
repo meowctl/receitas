@@ -18,9 +18,11 @@ function Cabecalho() {
                             <FontAwesomeIcon icon={faBars} /> MENU
                         </span>
                     </div>
-                    <div style={{textAlign: "center"}}>RECETAS</div>
+                    <div style={{textAlign: "center"}}>
+                        <span>RECETAS</span>
+                    </div>
                     <div style={{textAlign: "right"}}>
-                        <FontAwesomeIcon icon={faMagnifyingGlass} /> BUSCAR
+                        <span><FontAwesomeIcon icon={faMagnifyingGlass} /> BUSCAR</span>
                     </div>
                 </div>
             </div>
