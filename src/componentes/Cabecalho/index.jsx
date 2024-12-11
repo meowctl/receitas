@@ -1,20 +1,30 @@
+import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import "./Cabecalho.css"
+import Sidenav from '../Sidenav'
 
 function Cabecalho() {
+    const [menuActive, setMenuActive] = useState(false)
+
     return (
-        <div className="cabecalho">
-            <div className="cabecalho-itens">
-                <span style={{textAlign: "left"}}>
-                    <FontAwesomeIcon icon={faBars} />
-                </span>
-                <span style={{textAlign: "center"}}>RECEITAS</span>
-                <span style={{textAlign: "right"}}>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                </span>
+        <>
+            <Sidenav active={menuActive} setActive={setMenuActive} />
+
+            <div className="cabecalho">
+                <div className="cabecalho-itens">
+                    <div style={{textAlign: "left"}}>
+                        <span onClick={() => setMenuActive(true)} style={{cursor: "pointer"}}>
+                            <FontAwesomeIcon icon={faBars} />
+                        </span>
+                    </div>
+                    <div style={{textAlign: "center"}}>RECETAS</div>
+                    <div style={{textAlign: "right"}}>
+                        <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    </div>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 

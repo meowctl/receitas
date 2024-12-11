@@ -18,6 +18,7 @@
     width: 100%;
 }
 
-.cabecalho-itens > span {
+.cabecalho-itens > div {
     width: 100%;
+    font-size: 20px;
 }

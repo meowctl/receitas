@@ -1,0 +1,34 @@
+.sidenav {
+    display: block;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    background: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    display: block;
+    padding: 0 16px 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidenav .sidenav-close {
+    text-align: right;
+    top: 0;
+    font-size: 36px;
+}
+
+.sidenav-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
