@@ -7,9 +7,11 @@ function Destaques(props) {
             <div className="flex-destaques flex-destaques-vertical">
                 {props.destaques.slice(0, 1).map(destaque => destaque)}
             </div>
-            <div className="flex-destaques flex-destaques-vertical">
-                {props.destaques.slice(1).map(destaque => destaque)}
-            </div>
+            {props.destaques.length > 1 ?
+                <div className="flex-destaques flex-destaques-vertical">
+                    {props.destaques.slice(1).map(destaque => destaque)}
+                </div>
+            : ""}
         </div>
     )
 }
