@@ -1,0 +1,11 @@
+.rodape {
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    color: rgb(234, 234, 234);
+    background-color: rgba(0, 0, 0, 0.902);
+    /* word-break: normal; */
+}
