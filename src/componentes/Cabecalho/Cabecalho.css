@@ -23,3 +23,7 @@
     font-size: 15px;
     white-space: nowrap;
 }
+
+.cabecalho-itens > div > span {
+    padding: 1rem 0 1rem 0;
+}
