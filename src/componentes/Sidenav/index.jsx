@@ -1,8 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import "./Sidenav.css"
+import { useEffect, useState } from 'react';
 
 function Sidenav(props) {
+    let [sidenavData, setSidenavData] = useState([]);
+
+    useEffect(() => {
+        fetch("/dados/sidenav.json")
+            .then(resp => resp.json())
+            .then(data => setSidenavData(data));
+    }, []);
+
     return (
         <>
             <div className={`${props.active ? "sidenav-overlay" : ""}`} style={{transition: "0.5s"}}
@@ -12,10 +21,8 @@ function Sidenav(props) {
                 <a href="#" className="sidenav-close" onClick={() => props.setActive(false)}>
                     <FontAwesomeIcon icon={faCircleXmark} />
                 </a>
-                <a href="#">Teste1</a>
-                <a href="#">Teste2</a>
-                <a href="#">Teste3</a>
-                <a href="#">Teste4</a>
+
+                {sidenavData.map((item, key) => <a href={item.href} key={key}>{item.title}</a>)}
             </div>
         </>
     )
