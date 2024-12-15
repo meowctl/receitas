@@ -2,19 +2,23 @@
     "destaques": [
         {
             "titulo": "delicioso cuscuz",
-            "imagem": "url"
+            "imagem": "https://i.panelinha.com.br/i1/bk-5395-cp-2019-01-03-11375.webp",
+            "goto": "cuscuz1"
         },
         {
             "titulo": "delicioso cuscuz",
-            "imagem": "url"
+            "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
+            "goto": "cuscuz1"
         },
         {
             "titulo": "delicioso cuscuz",
-            "imagem": "url"
+            "imagem": "https://static.itdg.com.br/images/640-440/73e6dec9467a2a9c06d6226f807c41cb/file-de-peixe-assado-1-.jpg",
+            "goto": "cuscuz1"
         }
     ],
     "receitas": [
         {
+            "id": "cuscuz1",
             "titulo": "delicioso cuscuz",
             "imagem": "url ou null",
             "autor": "pessoa",
@@ -23,6 +27,7 @@
     ],
     "extras": [
         {
+            "id": "cuscuz2",
             "titulo": "beneficios do cuscuz na saúde",
             "imagem": "url ou null",
             "autor": "pessoa",

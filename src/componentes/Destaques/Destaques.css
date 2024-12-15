@@ -21,7 +21,7 @@
         min-height: 0 !important;
     }
 
-    .flex-destaques-vertical > div {
+    .flex-destaques-vertical > a {
         min-height: 150px !important;
     }
 }
@@ -31,7 +31,7 @@
     flex-direction: column;
 }
 
-.flex-destaques-vertical > div {
+.flex-destaques-vertical > a {
     border-radius: 10px;
     background-color: gray;
     color: white;
@@ -39,4 +39,8 @@
     padding: 1rem;
     min-height: 0;
     overflow: hidden;
+}
+
+.flex-destaques-vertical > a:hover {
+    color: white;
 }
