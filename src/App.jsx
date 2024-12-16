@@ -1,16 +1,18 @@
-import Cabecalho from "./componentes/Cabecalho"
-import Conteudo from "./componentes/Conteudo"
-import Rodape from "./componentes/Rodape"
+import Home from "./componentes/Home"
 import "./App.css"
+import { HashRouter, Routes, Route } from "react-router-dom"
+import Layout from "./componentes/Layout"
 
 
 function App() {
   return (
-    <>
-      <Cabecalho />
-      <Conteudo />
-      <Rodape />
-    </>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   )
 }
 
