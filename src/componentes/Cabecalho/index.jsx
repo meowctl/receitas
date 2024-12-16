@@ -22,7 +22,7 @@ function Cabecalho() {
                         <span>RECETAS</span>
                     </div>
                     <div style={{textAlign: "right"}}>
-                        <span><FontAwesomeIcon icon={faMagnifyingGlass} /> BUSCAR</span>
+                        { /* <span><FontAwesomeIcon icon={faMagnifyingGlass} /> BUSCAR</span> */ }
                     </div>
                 </div>
             </div>
