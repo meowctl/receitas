@@ -2,6 +2,7 @@
     display: flex;
     gap: 1rem;
     min-height: 200px;
+    border: 1px;
 }
 
 .artigos-entry .entry-image {
@@ -11,7 +12,16 @@
 
 .artigos-entry .entry-title {
     width: 100%;
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.artigos-entry .entry-title a {
+    color: #3a3a3a;
+    font-weight: semibold;
+}
+
+.artigos-entry .entry-title a:hover {
+    color: #515151;
 }
 
 /*

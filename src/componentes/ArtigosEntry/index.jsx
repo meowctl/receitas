@@ -9,7 +9,7 @@ function ArtigosEntry(props) {
                 backgroundSize: "cover",
             }}></a>
             <span className="entry-title">
-                <a href="#"><h3>{props.titulo}</h3></a>
+                <a href="#">{props.titulo}</a>
             </span>
         </div>
     )

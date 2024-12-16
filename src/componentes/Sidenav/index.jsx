@@ -18,7 +18,7 @@ function Sidenav(props) {
                  onClick={() => props.setActive(false)}></div>
 
             <div className="sidenav" style={{left: `${props.active ? "0" : "-250px"}`}}>
-                <a href="#" className="sidenav-close" onClick={() => props.setActive(false)}>
+                <a className="sidenav-close" onClick={() => props.setActive(false)}>
                     <FontAwesomeIcon icon={faCircleXmark} />
                 </a>
 
