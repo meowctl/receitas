@@ -8,6 +8,7 @@ function App() {
   let [receitasData, setReceitasData] = useState({
     "destaques": [],
     "receitas": [],
+    "extras": [],
   });
 
   useEffect(() => {
