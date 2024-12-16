@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
+import { faCircleXmark, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import "./Sidenav.css"
 import { useEffect, useState } from 'react';
 
@@ -21,6 +21,11 @@ function Sidenav(props) {
                 <a href="#" className="sidenav-close" onClick={() => props.setActive(false)}>
                     <FontAwesomeIcon icon={faCircleXmark} />
                 </a>
+
+                <form action="javascript:void()" class="search-container">
+                    <input type="text" placeholder="Buscar" />
+                    <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+                </form>
 
                 {sidenavData.map((item, key) => <a href={item.href} key={key}>{item.title}</a>)}
             </div>

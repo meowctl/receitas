@@ -28,6 +28,32 @@
     font-size: 36px;
 }
 
+.sidenav .search-container {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px 16px 10px;
+}
+
+.sidenav .search-container input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    width: 80%;
+}
+
+.sidenav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+.sidenav .search-container button:hover {
+    background: #ccc;
+}
+
 .sidenav-overlay {
     position: fixed;
     width: 100%;
