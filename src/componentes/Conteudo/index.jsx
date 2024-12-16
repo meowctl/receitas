@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react"
 import Destaque from "../Destaque"
 import Destaques from "../Destaques"
-import ListaDeTarefas from "../ListaDeTarefas"
+import Artigos from "../Artigos";
+import ArtigosEntry from "../ArtigosEntry";
 import "./Conteudo.css"
 
 function Conteudo() {
     let [receitasData, setReceitasData] = useState({
         "destaques": [],
+        "receitas": [],
     });
 
     useEffect(() => {
@@ -23,7 +25,11 @@ function Conteudo() {
                 )
             } />
 
-            <ListaDeTarefas />
+            <Artigos artigos={
+                receitasData.receitas.map(
+                    (artigo, key) => <ArtigosEntry titulo={artigo.titulo} key={key} imagem={artigo.imagem} />
+                )
+            } />
         </div>
     )
 }

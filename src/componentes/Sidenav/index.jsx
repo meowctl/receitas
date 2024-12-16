@@ -22,7 +22,7 @@ function Sidenav(props) {
                     <FontAwesomeIcon icon={faCircleXmark} />
                 </a>
 
-                <form action="javascript:void()" class="search-container">
+                <form className="search-container">
                     <input type="text" placeholder="Buscar" />
                     <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
                 </form>

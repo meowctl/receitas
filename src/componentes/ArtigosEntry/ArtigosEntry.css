@@ -1,0 +1,35 @@
+.artigos-entry {
+    display: flex;
+    gap: 1rem;
+    min-height: 200px;
+}
+
+.artigos-entry .entry-image {
+    width: 35%;
+    border-radius: 5px;
+}
+
+.artigos-entry .entry-title {
+    width: 100%;
+    font-size: 20px;
+}
+
+/*
+.artigos-entry .entry-title > h3 {
+    margin: 0;
+}
+*/
+
+@media only screen and (max-width: 600px) {
+    .artigos-entry {
+        min-height: 100px;
+    }
+
+    .artigos-entry .entry-image {
+        width: 45%;
+    }
+
+    .artigos-entry .entry-title {
+        font-size: 18px;
+    }
+}
