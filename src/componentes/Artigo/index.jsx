@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./Artigo.css"
 import Conteudo from "../Conteudo";
 import NotFound from "../NotFound";
@@ -7,7 +7,8 @@ import { faPencil, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 function Artigo(props) {
-    let params = useParams();
+    const navigate = useNavigate();
+    const params = useParams();
     let [editMode, setEditMode] = useState(false);
     let [artigoConteudo, setArtigoConteudo] = useState("");
 
@@ -15,8 +16,8 @@ function Artigo(props) {
     let artigo = null;
 
     for (const [tipo, artigos] of Object.entries(props.receitasData.artigos)) {
-        let artigoFind = artigos.find((artigo) => artigo.id == params.id);
-        if (artigoFind != undefined) {
+        let artigoFind = artigos.find((artigo) => artigo.id === params.id);
+        if (artigoFind !== undefined) {
             artigoTipo = tipo;
             artigo = artigoFind;
             break;
@@ -33,6 +34,13 @@ function Artigo(props) {
     function editar() {
         artigo.conteudo = artigoConteudo;
         setEditMode(false);
+    }
+
+    function deletar() {
+        props.receitasData.artigos[artigoTipo] = props.receitasData.artigos[artigoTipo].filter(
+            (outroArtigo) => outroArtigo.id !== artigo.id
+        );
+        navigate("/");
     }
 
     let items = [];
@@ -56,7 +64,7 @@ function Artigo(props) {
     items.push(
         <div key={4} className="artigo-edit">
             <FontAwesomeIcon icon={faPencil} style={{cursor: "pointer"}} onClick={() => setEditMode(!editMode)} /> &nbsp;
-            <FontAwesomeIcon icon={faTrash} style={{cursor: "pointer"}} />
+            <FontAwesomeIcon icon={faTrash} style={{cursor: "pointer"}} onClick={deletar} />
         </div>
     );
 
