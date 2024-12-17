@@ -18,7 +18,7 @@ function Sidenav(props) {
     const pesquisar = (e) => {
         e.preventDefault();
         props.setActive(false);
-        navigate(`/pesquisar/${e.target.children[0].value}`);
+        navigate(`/pesquisar/${e.target.children[0].value.trim().toLowerCase()}`);
     }
 
     return (
