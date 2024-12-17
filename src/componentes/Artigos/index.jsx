@@ -3,7 +3,7 @@ import "./Artigos.css"
 function Artigos(props) {
     return (
         <>
-            {props.artigos ?
+            {props.artigos && props.artigos.length > 0 ?
                 <>
                     <div className="section-title">
                         <h2>Recetas</h2>
@@ -14,7 +14,7 @@ function Artigos(props) {
                     </div>
                 </>
             : ""}
-            {props.extras ?
+            {props.extras && props.extras.length > 0 ?
                 <>
                     <div className="section-title">
                         <h2>Extras</h2>

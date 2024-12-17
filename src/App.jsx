@@ -5,6 +5,7 @@ import Layout from "./componentes/Layout"
 import { useEffect, useState } from "react"
 import Artigo from "./componentes/Artigo"
 import NotFound from "./componentes/NotFound"
+import Pesquisa from "./componentes/Pesquisa"
 
 function App() {
   let [receitasData, setReceitasData] = useState({
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home receitasData={receitasData} />} />
           <Route path="artigo/:id" element={<Artigo receitasData={receitasData} />} />
+          <Route path="pesquisar/:query" element={<Pesquisa receitasData={receitasData} />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
