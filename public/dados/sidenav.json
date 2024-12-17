@@ -1,18 +1,18 @@
 [
     {
-        "title": "test from json",
-        "href": "#"
+        "title": "Sobre",
+        "goto": "sobre"
     },
     {
         "title": "Teste2",
-        "href": "#"
+        "href": "arepas"
     },
     {
         "title": "Teste3",
-        "href": "#"
+        "href": "arepas"
     },
     {
         "title": "Teste4",
-        "href": "#"
+        "href": "arepas"
     }
 ]

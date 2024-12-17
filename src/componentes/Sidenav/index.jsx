@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import "./Sidenav.css"
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Sidenav(props) {
     let [sidenavData, setSidenavData] = useState([]);
@@ -27,7 +28,7 @@ function Sidenav(props) {
                     <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
                 </form>
 
-                {sidenavData.map((item, key) => <a href={item.href} key={key}>{item.title}</a>)}
+                {sidenavData.map((item, key) => <Link to={`artigo/${item.goto}`} key={key}>{item.title}</Link>)}
             </div>
         </>
     )

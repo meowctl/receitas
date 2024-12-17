@@ -1,4 +1,5 @@
 {
+    "loaded": true,
     "destaques": [
         {
             "titulo": "Arepas colombianas",
@@ -42,7 +43,7 @@
         "paginas": [
             {
                 "id": "sobre",
-                "titulo": "Sobre nós",
+                "titulo": "Sobre",
                 "imagem": null,
                 "conteudo": "<p>texto com formatação html</p>"
             }

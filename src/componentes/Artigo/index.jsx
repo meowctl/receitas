@@ -1,10 +1,11 @@
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import "./Artigo.css"
 import Conteudo from "../Conteudo";
+import NotFound from "../NotFound";
 
 function Artigo(props) {
     let params = useParams();
-    let artigo = {};
+    let artigo = null;
 
     for (const artigos of Object.values(props.receitasData.artigos)) {
         let artigoFind = artigos.find((artigo) => artigo.id == params.id);
@@ -14,7 +15,10 @@ function Artigo(props) {
     }
 
     if (!artigo) {
-        // TODO: redirecionar 404
+        if (!props.receitasData.loaded) {
+            return <Conteudo items={[]} />;
+        }
+        return <NotFound />
     }
 
     let items = [];
