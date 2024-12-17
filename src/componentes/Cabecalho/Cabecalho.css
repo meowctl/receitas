@@ -24,6 +24,8 @@
     white-space: nowrap;
 }
 
-.cabecalho-itens > div > span {
+.cabecalho-itens > div > .pad {
+    color: black;
+    font-weight: normal;
     padding: 1rem 0 1rem 0;
 }

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import "./Cabecalho.css"
 import Sidenav from '../Sidenav'
+import { Link } from 'react-router-dom'
 
 function Cabecalho() {
     const [menuActive, setMenuActive] = useState(false)
@@ -14,12 +15,12 @@ function Cabecalho() {
             <div className="cabecalho">
                 <div className="cabecalho-itens">
                     <div style={{textAlign: "left"}}>
-                        <span onClick={() => setMenuActive(true)} style={{cursor: "pointer"}}>
+                        <span onClick={() => setMenuActive(true)} className="pad" style={{cursor: "pointer"}}>
                             <FontAwesomeIcon icon={faBars} /> MENU
                         </span>
                     </div>
                     <div style={{textAlign: "center"}}>
-                        <span>RECETAS</span>
+                        <Link to="/" className="pad">SABORES</Link>
                     </div>
                     <div style={{textAlign: "right"}}>
                         { /* <span><FontAwesomeIcon icon={faMagnifyingGlass} /> BUSCAR</span> */ }
