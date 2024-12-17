@@ -3,12 +3,16 @@ import "./App.css"
 import { HashRouter, Routes, Route } from "react-router-dom"
 import Layout from "./componentes/Layout"
 import { useEffect, useState } from "react"
+import Artigo from "./componentes/Artigo"
 
 function App() {
   let [receitasData, setReceitasData] = useState({
     "destaques": [],
-    "receitas": [],
-    "extras": [],
+    "artigos": {
+      "receitas": [],
+      "extras": [],
+      "paginas": []
+    }
   });
 
   useEffect(() => {
@@ -22,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home receitasData={receitasData} />} />
+          <Route path=":id" element={<Artigo receitasData={receitasData} />} />
         </Route>
       </Routes>
     </HashRouter>

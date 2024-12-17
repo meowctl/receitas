@@ -1,9 +1,9 @@
 {
     "destaques": [
         {
-            "titulo": "teste 1",
+            "titulo": "Arepas colombianas",
             "imagem": "https://i.panelinha.com.br/i1/bk-5395-cp-2019-01-03-11375.webp",
-            "goto": "cuscuz1"
+            "goto": "arepas"
         },
         {
             "titulo": "teste 2",
@@ -16,34 +16,36 @@
             "goto": "cuscuz1"
         }
     ],
-    "receitas": [
-        {
-            "id": "cuscuz1",
-            "titulo": "teste receita 1",
-            "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-            "conteudo": "texto com formatação html"
-        },
-        {
-            "id": "cuscuz2",
-            "titulo": "teste receita 2",
-            "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-            "conteudo": "texto com formatação html"
-        }
-    ],
-    "extras": [
-        {
-            "id": "cuscuz2",
-            "titulo": "teste extra",
-            "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-            "conteudo": "texto com formatação html"
-        }
-    ],
-    "paginas": [
-        {
-            "id": "sobre",
-            "titulo": "Sobre nós",
-            "imagem": null,
-            "conteudo": ""
-        }
-    ]
+    "artigos": {
+        "receitas": [
+            {
+                "id": "arepas",
+                "titulo": "Arepas colombianas: receta completa",
+                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
+                "conteudo": "<p>texto com formatação html</p>"
+            },
+            {
+                "id": "cuscuz2",
+                "titulo": "teste receita 2",
+                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
+                "conteudo": "<p>texto com formatação html</p>"
+            }
+        ],
+        "extras": [
+            {
+                "id": "cuscuz2",
+                "titulo": "teste extra",
+                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
+                "conteudo": "<p>texto com formatação html</p>"
+            }
+        ],
+        "paginas": [
+            {
+                "id": "sobre",
+                "titulo": "Sobre nós",
+                "imagem": null,
+                "conteudo": "<p>texto com formatação html</p>"
+            }
+        ]
+    }
 }

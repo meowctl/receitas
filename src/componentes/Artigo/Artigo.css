@@ -1,0 +1,14 @@
+.artigo-imagem {
+    width: 50%;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+    .artigo-imagem {
+        width: 80%;
+    }
+}
+
+.artigo-body {
+    width: 100%;
+}

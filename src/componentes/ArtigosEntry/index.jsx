@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom"
 import "./ArtigosEntry.css"
 
 function ArtigosEntry(props) {
     return (
         <div className="artigos-entry">
-            <a className="entry-image" href="#" style={{
+            <Link to={props.id} className="entry-image" style={{
                 backgroundImage: `url(${props.imagem})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
-            }}></a>
+            }}></Link>
             <span className="entry-title">
-                <a href="#">{props.titulo}</a>
+                <Link to={props.id}>{props.titulo}</Link>
             </span>
         </div>
     )
