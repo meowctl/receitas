@@ -23,9 +23,9 @@ function Pesquisa(props) {
         }
     }
 
-    if (resultados.receitas.length == 0 && resultados.extras.length == 0) {
+    if (resultados.receitas.length === 0 && resultados.extras.length === 0) {
         return <Conteudo items={[
-            <h2 key={0}>Nenhum resultado encontrado {":("}</h2>
+            <h2 key={0}>No se encontraron resultados {":("}</h2>
         ]} />;
     }
 
