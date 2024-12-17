@@ -28,6 +28,7 @@ function Sidenav(props) {
                     <button type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
                 </form>
 
+                <Link to="/">Inicio</Link>
                 {sidenavData.map((item, key) => <Link to={`artigo/${item.goto}`} key={key}>{item.title}</Link>)}
             </div>
         </>
