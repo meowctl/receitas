@@ -48,14 +48,14 @@
             {
                 "id": "folder",
                 "titulo": "Folder",
-                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-                "conteudo": "<p>texto com formatação html</p>"
+                "imagem": "/imagens/Captura de tela 2024-12-18 130519.png",
+                "conteudo": ""
             },
             {
                 "id": "presentacion-video",
                 "titulo": "Presentación de la gastronomía colombiana",
-                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-                "conteudo": "<p>texto com formatação html</p>"
+                "imagem": "/imagens/Captura de tela 2024-12-18 130859.png",
+                "conteudo": "<div style=\"text-align: center;\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fcha7e-YStc?si=hN1WnSgvTqlA6jHf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>"
             },
             {
                 "id": "alimentos-saludables",
