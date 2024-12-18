@@ -15,12 +15,14 @@ function Cabecalho() {
             <div className="cabecalho">
                 <div className="cabecalho-itens">
                     <div style={{textAlign: "left"}}>
-                        <span onClick={() => setMenuActive(true)} className="pad" style={{cursor: "pointer"}}>
-                            <FontAwesomeIcon icon={faBars} /> MENU
+                        <span onClick={() => setMenuActive(true)} className="pad" style={
+                            {cursor: "pointer", fontSize: "17px", paddingRight: "10px"}
+                        }>
+                            <FontAwesomeIcon icon={faBars} />
                         </span>
                     </div>
                     <div style={{textAlign: "center"}}>
-                        <Link to="/" className="pad">SABORES</Link>
+                        <Link to="/" className="pad">SABORES DE COLOMBIA</Link>
                     </div>
                     <div style={{textAlign: "right"}}>
                         { /* <span><FontAwesomeIcon icon={faMagnifyingGlass} /> BUSCAR</span> */ }
