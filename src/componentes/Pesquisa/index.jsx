@@ -12,13 +12,13 @@ function Pesquisa(props) {
     };
 
     for (const [tipo, artigos] of Object.entries(props.receitasData.artigos)) {
-        let artigoFind = artigos.find(
+        let artigoFind = artigos.filter(
             (artigo) => artigo.titulo.toLowerCase().includes(params.query.trim().toLowerCase())
         );
         if (artigoFind != undefined) {
             let resTipo = resultados[tipo];
             if (resTipo != undefined) {
-                resultados[tipo].push(artigoFind);
+                resultados[tipo] = artigoFind;
             }
         }
     }
