@@ -21,6 +21,7 @@
 .artigo-body > textarea {
     width: 95%;
     height: 100%;
+    min-height: 90px;
     resize: vertical;
 }
 

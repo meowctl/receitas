@@ -10,7 +10,7 @@ function Artigo(props) {
     const navigate = useNavigate();
     const params = useParams();
     let [editMode, setEditMode] = useState(false);
-    let [artigoConteudo, setArtigoConteudo] = useState("");
+    let [artigoConteudo, setArtigoConteudo] = useState(null);
 
     let artigoTipo = null;
     let artigo = null;
@@ -32,7 +32,9 @@ function Artigo(props) {
     }
 
     function editar() {
-        artigo.conteudo = artigoConteudo;
+        if (artigoConteudo !== null) {
+            artigo.conteudo = artigoConteudo;
+        }
         setEditMode(false);
     }
 
@@ -44,7 +46,7 @@ function Artigo(props) {
     }
 
     let items = [];
-    if (artigo.imagem) {
+    if (artigo.imagem !== null) {
         items.push(
             <img key={0} src={artigo.imagem} className="artigo-imagem" />
         );
