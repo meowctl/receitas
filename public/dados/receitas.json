@@ -48,13 +48,13 @@
             {
                 "id": "folder",
                 "titulo": "Folder",
-                "imagem": "/imagens/Captura de tela 2024-12-18 130519.png",
+                "imagem": "/imagens/Captura%20de%20tela%202024-12-18%20130519.png",
                 "conteudo": ""
             },
             {
                 "id": "presentacion-video",
                 "titulo": "Presentación de la gastronomía colombiana",
-                "imagem": "/imagens/Captura de tela 2024-12-18 130859.png",
+                "imagem": "/imagens/Captura%20de%20tela%202024-12-18%20130859.png",
                 "conteudo": "<div style=\"text-align: center;\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fcha7e-YStc?si=hN1WnSgvTqlA6jHf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>"
             },
             {
