@@ -4,15 +4,11 @@
         "goto": "sobre"
     },
     {
-        "title": "Teste2",
-        "href": "arepas"
+        "title": "Folder",
+        "goto": "arepas"
     },
     {
-        "title": "Teste3",
-        "href": "arepas"
-    },
-    {
-        "title": "Teste4",
-        "href": "arepas"
+        "title": "Presentación",
+        "goto": "presentacion-video"
     }
 ]

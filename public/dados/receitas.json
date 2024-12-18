@@ -2,42 +2,66 @@
     "loaded": true,
     "destaques": [
         {
-            "titulo": "Arepas colombianas",
-            "imagem": "https://i.panelinha.com.br/i1/bk-5395-cp-2019-01-03-11375.webp",
+            "titulo": "Arepas",
+            "imagem": "/imagens/arepas-colombianas.jpg",
             "goto": "arepas"
         },
         {
-            "titulo": "teste 2",
-            "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-            "goto": "cuscuz1"
+            "titulo": "Ajiaco",
+            "imagem": "/imagens/ajiaco.webp",
+            "goto": "ajiaco"
         },
         {
-            "titulo": "teste 3",
-            "imagem": "https://static.itdg.com.br/images/640-440/73e6dec9467a2a9c06d6226f807c41cb/file-de-peixe-assado-1-.jpg",
-            "goto": "cuscuz1"
+            "titulo": "Patacones",
+            "imagem": "/imagens/patacones.jpg",
+            "goto": "patacones"
         }
     ],
     "artigos": {
         "receitas": [
             {
                 "id": "arepas",
-                "titulo": "Arepas colombianas: receta completa",
-                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-                "conteudo": "<p>texto com formatação html</p>"
+                "titulo": "Arepas colombianas: receta y método de preparación",
+                "imagem": "/imagens/arepas-colombianas.jpg",
+                "conteudo": "<p>Las <strong>arepas</strong> son un tipo de pan/pastel de ma\u00edz muy conocido en Colombia, normalmente se sirven para el desayuno y la merienda.\n    Se pueden rellenar con diferentes ingredientes, como queso, jam\u00f3n, aguacate, huevos revueltos, carne deshebrada y muchos otros.</p>\n<img src=\"/imagens/arepa-foto.jpeg\" style=\"float: right; width: 40%;\">\n<h3>Ingredientes</h3>\n<ul>\n    <li>1 taza de harina de ma\u00edz para polenta</li>\n    <li>1 taza de mozzarella rallada</li>\n    <li>2 cucharadas de mantequilla derretida</li>\n    <li>1 taza de leche</li>\n    <li>50 gramos de mantequilla</li>\n    <li>1 pizca de sal</li>\n    <li>100 gramos de queso y jam\u00f3n para relleno</li>\n</ul>\n\n<h3>M\u00e9todo de preparaci\u00f3n</h3>\n<ul>\n    <li>En un bol mezclar la harina de ma\u00edz, el queso y la sal.</li>\n    <li>Agrega la leche y la mantequilla derretida y mezcla.</li>\n    <li>D\u00e9jalo reposar durante 5 minutos.</li>\n    <li>Dale forma a la masa como si fueras a hacer tortitas.</li>\n    <li>Engrasa una sart\u00e9n antiadherente con mantequilla y coloca a fuego medio.</li>\n    <li>Dora cada lado de las arepas durante 5 minutos.</li>\n    <li>Cortar horizontalmente y rellenar con queso y jam\u00f3n.</li>\n    <li>Colocar nuevamente en la sart\u00e9n para que se derrita el relleno.</li>\n    <li>Sirve entonces.</li>\n</ul>"
             },
             {
-                "id": "cuscuz2",
-                "titulo": "teste receita 2",
-                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
-                "conteudo": "<p>texto com formatação html</p>"
+                "id": "ajiaco",
+                "titulo": "Ajiaco: un manjar único de la cocina colombiana",
+                "imagem": "/imagens/ajiaco.webp",
+                "conteudo": "<p>El <strong>ajiaco</strong> es una sopa t\u00edpica de Bogot\u00e1, hecha con pollo, papas y un toque especial de guascas (hierba t\u00edpica colombiana).\n    Es un plato reconfortante y sabroso.</p>\n\n<img src=\"/imagens/ajiaco-ver.jpg\" style=\"float: right; width: 20%;\">\n\n<h3>Ingredientes</h3>\n<ul>\n    <li>2 pechugas de pollo</li>\n    <li>3 litros de agua</li>\n    <li>3 tipos de papas (1 taza de cada una: papa blanca, papa amarilla y criolla u otra papa peque\u00f1a)</li>\n    <li>2 mazorcas de ma\u00edz (cortadas en trozos)</li>\n    <li>2 cucharadas de guascas (u or\u00e9gano como sustituto)</li>\n    <li>Sal y pimienta al gusto</li>\n    <li>Crema agria y alcaparras para acompa\u00f1ar (opcional)</li>\n</ul>\n\n<h3>M\u00e9todo de preparaci\u00f3n</h3>\n<ul>\n    <li>Cocine las pechugas de pollo en 3 litros de agua hasta que est\u00e9n tiernas.</li>\n    <li>Retirar el pollo, desmenuzarlo y reservar.</li>\n    <li>En la misma sart\u00e9n agrega las papas cortadas en trozos peque\u00f1os y el ma\u00edz. Cocine hasta que las patatas est\u00e9n tiernas, unos 20 minutos.</li>\n    <li>Agrega las guascas, sal y pimienta. Revuelva bien.</li>\n    <li>Regrese el pollo desmenuzado a la sart\u00e9n y cocine por otros 10 minutos.</li>\n    <li>Dirve caliente, acompa\u00f1ado de crema, alcaparras y rodajas de aguacate, si lo deseas.</li>\n</ul>"
+            },
+            {
+                "id": "patacones",
+                "titulo": "Patacones: una receta para usar plátanos verdes",
+                "imagem": "/imagens/patacones.jpg",
+                "conteudo": "<p>Los <strong>patacones</strong>, o tostones, son rodajas crujientes de pl\u00e1tanos verdes fritos dos veces.\n    Este platillo es muy popular en Colombia y puede servirse como guarnici\u00f3n o entrante, muchas veces acompa\u00f1ado de salsas o carnes.</p>\n\n<img src=\"/imagens/patacones-ver.webp\" style=\"float: right; width: 40%;\">\n\n<h3>Ingredientes</h3>\n<ul>\n    <li>2 pl\u00e1tanos verdes</li>\n    <li>Aceite para fre\u00edr</li>\n    <li>Sal al gusto</li>\n</ul>\n\n<h3>M\u00e9todo de preparaci\u00f3n</h3>\n<ul>\n    <li>Pela los pl\u00e1tanos y c\u00f3rtalos en trozos de unos 3 cm de espesor.</li>\n    <li>Calienta el aceite en una sart\u00e9n a fuego medio.\n        Fre\u00edr los trozos de pl\u00e1tano durante unos 3 minutos, hasta que est\u00e9n ligeramente dorados pero a\u00fan suaves.\n        Retirar y escurrir sobre papel toalla.</li>\n    <li>Coloca los trozos fritos entre dos hojas de papel de horno o sobre una superficie plana.\n        Con un plato o utensilio pesado, amase suavemente cada pieza hasta formar discos finos.</li>\n    <li>Regresa los discos al aceite caliente y fr\u00edelos nuevamente, durante unos 2 minutos por cada lado, hasta que est\u00e9n crujientes y dorados.\n        Retire los patacones del aceite, esc\u00farralos sobre papel toalla y espolvoree con sal al gusto.</li>\n    <li>Sirve caliente, acompa\u00f1ado de guacamole, salsa de ajo o como base para aderezos como carne molida o queso.</li>\n</ul>"
+            },
+            {
+                "id": "arroz-con-coco",
+                "titulo": "Arroz con coco: una mezcla única",
+                "imagem": "/imagens/arroz.jpg",
+                "conteudo": "<p>El <strong>arroz con coco</strong> es un acompa\u00f1amiento t\u00edpico de la regi\u00f3n costera de Colombia, especialmente en la regi\u00f3n del Caribe.\n    Combina el sabor dulce del coco con un toque salado, perfecto para acompa\u00f1ar pescados y mariscos.</p>\n\n<img src=\"/imagens/arroz-ver.jpg\" style=\"float: right; width: 40%;\">\n\n<h3>Ingredientes</h3>\n<ul>\n    <li>2 tazas de arroz blanco</li>\n    <li>1 lata de leche de coco (400 ml)</li>\n    <li>2 cucharadas de az\u00facar</li>\n    <li>2 cucharadas de aceite vegetal o mantequilla</li>\n    <li>1 cucharadita de sal</li>\n    <li>2 \u00bd tazas de agua</li>\n</ul>\n\n<h3>M\u00e9todo de preparaci\u00f3n</h3>\n<ul>\n    <li>En una sart\u00e9n calienta la leche de coco a fuego medio hasta que el aceite reduzca y se separe\n        formando un residuo espeso y dorado (conocido como titot\u00e9).</li>\n    <li>Agrega el az\u00facar al titot\u00e9 y mezcla hasta que se caramelice ligeramente.\n        Agrega el arroz y revuelve bien para que los granos queden cubiertos con la mezcla de coco.</li>\n    <li>Agrega agua y sal. Revuelva y deje hervir.</li>\n    <li>Cuando el agua empiece a secarse, reduce el fuego, tapa la cacerola y deja cocinar durante 15-20 minutos,\n        hasta que el arroz est\u00e9 suave y completamente cocido.</li>\n    <li>Revuelva los granos con un tenedor y sirva caliente.</li>\n</ul>"
             }
         ],
         "extras": [
             {
-                "id": "cuscuz2",
-                "titulo": "teste extra",
+                "id": "folder",
+                "titulo": "Folder",
                 "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
                 "conteudo": "<p>texto com formatação html</p>"
+            },
+            {
+                "id": "presentacion-video",
+                "titulo": "Presentación de la gastronomía colombiana",
+                "imagem": "https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2022/01/arepas-colombianas.jpg",
+                "conteudo": "<p>texto com formatação html</p>"
+            },
+            {
+                "id": "alimentos-saludables",
+                "titulo": "Consumo de alimentos saludables y sus beneficios para la salud humana",
+                "imagem": "/imagens/alimentos.jpg",
+                "conteudo": "<p>Consumir alimentos saludables es fundamental para mantener el organismo funcionando correctamente y prevenir una serie de enfermedades. Los alimentos saludables son ricos en nutrientes como vitaminas, minerales, fibra y antioxidantes, que desempe\u00f1an un papel crucial en la protecci\u00f3n de la salud, previniendo enfermedades como la obesidad, la diabetes, las enfermedades card\u00edacas y la hipertensi\u00f3n.</p>\n\n<p>Las frutas y verduras aportan vitaminas y minerales que fortalecen el sistema inmunol\u00f3gico, ayudan a la digesti\u00f3n y combaten los da\u00f1os causados \u200b\u200bpor los radicales libres, previniendo el envejecimiento prematuro. Adem\u00e1s, estos alimentos ayudan a mantener una piel sana, controlar el peso y reducir el riesgo de enfermedades cr\u00f3nicas. Los cereales integrales, legumbres y verduras ricas en fibra regulan los niveles de az\u00facar y colesterol en sangre, adem\u00e1s de favorecer la salud intestinal y mantener la sensaci\u00f3n de saciedad, contribuyendo al control del peso.</p>\n\n<img src=\"/imagens/proteina-magra.jpg\" style=\"float: right; width: 20%; padding-left: 10px;\">\n\n<p>Las fuentes de prote\u00ednas magras como el pescado, las aves, las legumbres y los frutos secos son esenciales para la reparaci\u00f3n y el crecimiento de los tejidos corporales. Los pescados ricos en \u00e1cidos grasos omega-3, como el salm\u00f3n y las sardinas, son especialmente beneficiosos para el coraz\u00f3n, ya que ayudan a reducir la inflamaci\u00f3n y controlar el colesterol. Grasas saludables, que se encuentran en alimentos como los aguacates, el aceite de oliva y los frutos secos son importantes para la salud del cerebro y el coraz\u00f3n, ya que ayudan a regular el colesterol y protegen contra las enfermedades cardiovasculares.</p>\n\n<p>Adem\u00e1s, mantenerse bien hidratado y evitar los alimentos procesados, ricos en az\u00facar, sal y grasas trans, es fundamental para prevenir problemas como el sobrepeso, la hipertensi\u00f3n arterial y la diabetes. En definitiva, adoptar una dieta equilibrada compuesta por alimentos frescos y naturales aporta varios beneficios para la salud, ayudando a prevenir enfermedades, controlar el peso, fortalecer el sistema inmunol\u00f3gico y promover una vida m\u00e1s sana y en\u00e9rgica. Una dieta nutritiva no s\u00f3lo mejora la salud f\u00edsica, sino que tambi\u00e9n contribuye al bienestar general y al envejecimiento saludable.</p>"
             }
         ],
         "paginas": [
@@ -45,7 +69,7 @@
                 "id": "sobre",
                 "titulo": "Sobre",
                 "imagem": null,
-                "conteudo": "<p>texto com formatação html</p>"
+                "conteudo": "<h3>\u00a1Bienvenidos a nuestro sitio web!</h3>\n\n<p>Este espacio ha sido creado con pasi\u00f3n y dedicaci\u00f3n por un grupo de estudiantes del Proyecto de Ense\u00f1anza Gastron\u00f3mico Hispanoamericano del IFRN - Campus S\u00e3o Gon\u00e7alo do Amarante (SGA). En esta ocasi\u00f3n, nos enfocamos en la fascinante cocina colombiana, una tradici\u00f3n rica en sabores, colores y cultura.</p>\n\n<p>Aqu\u00ed encontrar\u00e1s recetas aut\u00e9nticas, curiosidades sobre los ingredientes t\u00edpicos y la historia detr\u00e1s de los platos m\u00e1s emblem\u00e1ticos de Colombia. Nuestro objetivo es llevarte en un viaje culinario que celebre la diversidad y la riqueza de esta maravillosa gastronom\u00eda.</p>\n\n<p>Explora, aprende y disfruta de todo lo que hemos preparado para ti. \u00a1Gracias por acompa\u00f1arnos en este delicioso recorrido!</p>"
             }
         ]
     }
